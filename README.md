@@ -23,3 +23,10 @@ The water potability.csv dataset addresses drinking water quality. Each row repr
 - Data preparation for modeling: missing data were supplemented with the median, standardization was performed and data were divided.
 - Two models were compared: Logistic Regression and Decision Tree.
 - Random Forest was also used, testing three variants: before SMOTE,after SMOTE, after SMOTE + hyperparameter tuning.
+
+## 4. Health Risk Classification ##
+The project's goal was to build classification models that predict health risk levels (Health_Risk) based on: demographic data, medical parameters, and lifestyle.
+- Identification of missing data.
+- Preparing data for modeling: encoding categorical variables (one-hot encoding), standardizing numerical features,dividing data.
+- Two models were compared: Logistic Regression and Decision Tree.
+- Evaluation of model quality in multiclass classification: accuracy,F1-score in macro or weighted versions, and class imbalance approach (class_weight='balanced') in linear regression, comparison of results before and after applying the approach.
