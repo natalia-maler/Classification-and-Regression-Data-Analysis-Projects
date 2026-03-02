@@ -1,7 +1,7 @@
 # Classification-Regression-Data-Analysis-Projects
 
 ## Project Description
-This repository contains two predictive modeling projects demonstrating data exploration, preprocessing, and model evaluation:
+This repository contains predictive modeling projects demonstrating data exploration, preprocessing, and model evaluation:
 ## 1. Titanic Survival Classification ##
 Analysis of the Titanic passenger dataset to explore data, prepare features, and build a predictive model for passenger survival. The project includes:
 - data exploration and visualizations,
